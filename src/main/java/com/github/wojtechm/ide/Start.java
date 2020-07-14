@@ -13,7 +13,7 @@ package com.github.wojtechm.ide;
  *          </ul>
  *      </li>
  *
- *      <li>Edycja Tekstu
+ *      <li>{@link EdycjaTekstu}
  *          <ul>
  *               <li>Poruszanie kursorem</li>
  *               <li>Sposoby na zaznaczenie tekstu</li>
@@ -41,20 +41,21 @@ package com.github.wojtechm.ide;
  */
 class Start {
     /*
-    1. W tym repozytorium dokumentacja, komentarze, nazwy klas, metod i pól będą w języku polskim. Co za tym
+    W tym repozytorium dokumentacja, komentarze, nazwy klas, metod i pól będą w języku polskim. Co za tym
     idzie - twoje IDE będzie podkreślać większość nazw. Aby temu zaradzić skorzystaj ze skrótu klawiszowego
     ~Ctrl + Shift + Alt + H~ i zmniejsz "Highlighting Level" do wartości "None".
      */
 
     /*
-    2. Aby 'rozwinąć' blok tekstu użyj ~Ctrl + PLUS~. Aby zwinąć blok, użyj ~Ctrl + MINUS~
+    Aby 'rozwinąć' blok tekstu użyj ~Ctrl + PLUS~. Aby zwinąć blok, użyj ~Ctrl + MINUS~
     Przetestuj proszę oba skróty. Umieść kursor gdzieś w obrębie tego bloku tekstu i klikaj.
     */
 
     /*
     ~Ctrl + Shift + MINUS~ oraz ~Ctrl + Shift + PLUS~ zadziałają na wszystkie bloki w pliku.
-    Ostatni jest ~Ctrl + .~ który może być wykorzystany zarówno do zwijania, jak i rozwijania tekstu.
-    Sugestia dotycząca pracy z tym repozytorium - po przejściu do nowego pliku zwiń wszystkie bloki i kolejno
-    rozwijaj je w miarę czytania.
+    Ostatnim podstawowym skrótem z tej kategorii jest ~Ctrl + .~ który może być wykorzystany zarówno do zwijania,
+    jak i rozwijania tekstu.
+
+    Po przejściu do nowego pliku zwiń wszystkie bloki i kolejno rozwijaj je w miarę czytania!
      */
 }
