@@ -1,4 +1,4 @@
-package com.github.wojtechm.ide;
+package com.github.wojtechm.idealegdzie;
 
 /**
  * W tym repozytorium znajdziesz informacje o nawigacji oraz skrótach klawiszowych wewnątrz IntelliJ IDEA.

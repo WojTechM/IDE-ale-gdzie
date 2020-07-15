@@ -1,4 +1,4 @@
-package com.github.wojtechm.ide;
+package com.github.wojtechm.idealegdzie;
 
 /**
  * Podstawy manipulacji tesktem.
