@@ -39,6 +39,8 @@ class EdycjaTekstu {
             Przy nawigacji pionowej ~Shift~ nie zmienia sposobu działania strzałek, lecz zachowuje standardowe zachowanie
             zaznaczania między pozycją startu i końca. Ustaw kursor na końcu tego zdania i postaraj się zaznaczyć
             cały tekst tego komentarza (tylko tekst) możliwie najmniejszą ilością kliknięć.
+
+            Uwaga: Kombinacja ~Ctrl + Shift + Arrow UP/Down~ ma inne zastosowanie - przenoszenie kodu. Więcej o nim później.
              */
         }
 
@@ -97,7 +99,47 @@ class EdycjaTekstu {
                  */
             }
         }
+
+        class PrzeskokDoNastępnegoBloku {
+            /*
+            Aby szybko przemieszczać się między blokami kodu w obrębie tego samego pliku, skorzystaj
+            z skrótów klawiszowych ~Alt + Arrow Up~ i ~Alt + Arrow Down~.
+
+            ~Alt + Arrow Left~ oraz ~Alt + Arrow Right~ służą do przełączania się między aktualnie otwartymi
+            plikami.
+             */
+        }
     }
 
+    class OperacjeNaTekście {
+        class KopiujUsuńWytnij {
+            /*
+            ~Ctrl + C~ - Kopiuj - Zapisuje zaznaczony fragment tekstu w schowku.
+            ~Ctrl + Y~ - Usuń - Usuwa zaznaczony fragment tekstu.
+            ~Ctrl + X~ - Wytnij - Zapisuje zaznaczony fragment tekstu w schowku i usuwa go.
+
+            W przypadku użycia tych skrótów w momencie kiedy tekst nie jest zaznaczony, akcja
+            obejmuje całą linię w której znajduje się kursor.
+
+             */
+        }
+
+        class CofnijPonów {
+            /*
+            Skrót ~Ctrl + Z~ cofa ostatnio wprowadzone zmiany. Aby cofnąć "cofnięcie" (ponowić operację),
+            użyj skrótu klawiszowego ~Ctrl + Shift + Z~.
+             */
+        }
+
+        class Przenieś {
+            /*
+            ~Crtl + Shift + Arrow Up~ oraz ~Crtl + Shift + Arrow Down~ służą do przesuwania lini lub bloku
+            w pionie. W przypadku komentarzy lub pojedynczych lini kodu, przenoszona będzie tylko dana linia.
+            Jeśli ustawisz kursor w linii otwierającej lub zamykającej blok (np `if` lub `class`), przenosić będziesz
+            cały blok.
+            Spróbój przemieścić klasę `Przenieś` ponad klasę `CofnijPonów`.
+             */
+        }
+    }
 
 }
